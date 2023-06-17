@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct LogInAndLogOut_SwiftUIApp: App {
+    
+    private let user = DataManager.shared.load()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(UserSettings(user: user))
         }
     }
 }

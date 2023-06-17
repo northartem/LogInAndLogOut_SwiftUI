@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882AF5E12A3D848E00C92BCA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882AF5E02A3D848E00C92BCA /* DataManager.swift */; };
+		882AF5E32A3D8E0C00C92BCA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882AF5E22A3D8E0C00C92BCA /* ButtonView.swift */; };
 		88E0F5C52A3C6028006AD7D6 /* LogInAndLogOut_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5C42A3C6028006AD7D6 /* LogInAndLogOut_SwiftUIApp.swift */; };
 		88E0F5C72A3C6028006AD7D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5C62A3C6028006AD7D6 /* ContentView.swift */; };
 		88E0F5C92A3C602A006AD7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E0F5C82A3C602A006AD7D6 /* Assets.xcassets */; };
 		88E0F5CC2A3C602A006AD7D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E0F5CB2A3C602A006AD7D6 /* Preview Assets.xcassets */; };
+		88E0F5D32A3C6D02006AD7D6 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5D22A3C6D02006AD7D6 /* TimeCounter.swift */; };
+		88E0F5D72A3C7795006AD7D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5D62A3C7795006AD7D6 /* LoginView.swift */; };
+		88E0F5D92A3C78FE006AD7D6 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5D82A3C78FE006AD7D6 /* UserSettings.swift */; };
+		88E0F5DB2A3C7A71006AD7D6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0F5DA2A3C7A71006AD7D6 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882AF5E02A3D848E00C92BCA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		882AF5E22A3D8E0C00C92BCA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		88E0F5C12A3C6028006AD7D6 /* LogInAndLogOut_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInAndLogOut_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E0F5C42A3C6028006AD7D6 /* LogInAndLogOut_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInAndLogOut_SwiftUIApp.swift; sourceTree = "<group>"; };
 		88E0F5C62A3C6028006AD7D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88E0F5C82A3C602A006AD7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E0F5CB2A3C602A006AD7D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88E0F5D22A3C6D02006AD7D6 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		88E0F5D62A3C7795006AD7D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		88E0F5D82A3C78FE006AD7D6 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		88E0F5DA2A3C7A71006AD7D6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				88E0F5C42A3C6028006AD7D6 /* LogInAndLogOut_SwiftUIApp.swift */,
+				88E0F5DA2A3C7A71006AD7D6 /* RootView.swift */,
 				88E0F5C62A3C6028006AD7D6 /* ContentView.swift */,
+				882AF5E22A3D8E0C00C92BCA /* ButtonView.swift */,
+				88E0F5D62A3C7795006AD7D6 /* LoginView.swift */,
+				88E0F5D22A3C6D02006AD7D6 /* TimeCounter.swift */,
+				88E0F5D82A3C78FE006AD7D6 /* UserSettings.swift */,
+				882AF5E02A3D848E00C92BCA /* DataManager.swift */,
 				88E0F5C82A3C602A006AD7D6 /* Assets.xcassets */,
 				88E0F5CA2A3C602A006AD7D6 /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E0F5C72A3C6028006AD7D6 /* ContentView.swift in Sources */,
+				88E0F5D32A3C6D02006AD7D6 /* TimeCounter.swift in Sources */,
+				882AF5E32A3D8E0C00C92BCA /* ButtonView.swift in Sources */,
+				88E0F5DB2A3C7A71006AD7D6 /* RootView.swift in Sources */,
+				882AF5E12A3D848E00C92BCA /* DataManager.swift in Sources */,
+				88E0F5D72A3C7795006AD7D6 /* LoginView.swift in Sources */,
+				88E0F5D92A3C78FE006AD7D6 /* UserSettings.swift in Sources */,
 				88E0F5C52A3C6028006AD7D6 /* LogInAndLogOut_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
